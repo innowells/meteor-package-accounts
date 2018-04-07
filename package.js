@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'moac:accounts',
+  name: 'moaclib:accounts',
   summary: 'Provides and updates the moac accounts in the Accounts collection',
   version: '0.1.0',
   git: 'https://github.com/innowells/meteor-package-accounts'
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 
 // Package.onTest(function(api) {
 //   api.use('tinytest');
-//   api.use('moac:accounts');
+//   api.use('moaclib:accounts');
 //   api.addFiles('accounts-tests.js');
 // });
 

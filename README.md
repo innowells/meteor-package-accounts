@@ -15,7 +15,7 @@ or any change in `chain3.mc.accounts` would hide them.
 
 ## Installation
 
-    $ meteor add moac:accounts
+    $ meteor add moaclib:accounts
 
 ## Usage
 
