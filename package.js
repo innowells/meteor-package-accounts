@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('mongo', ['client', 'server']);
 
   api.use('frozeman:persistent-minimongo@0.1.8', 'client');
-  api.use('moac:chain3@0.1.2', ['client', 'server']);
+  api.use('moaclib:chain3@0.1.2', ['client', 'server']);
 
   api.export(['McAccounts'], ['client', 'server']);
 
